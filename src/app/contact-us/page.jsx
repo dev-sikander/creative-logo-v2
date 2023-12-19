@@ -10,8 +10,18 @@ const Page = () => {
   const hero = {
     page: "single",
     subtitle: "WE ARE WAITING TO HEAR FROM YOU",
-    title: "Let's Create Your Dream Website Together",
-    desc: "Our team of experts is waiting to hear your voice. Call us now and have your vision turned into a magical reality. Your next big idea is just a call away.",
+    title: (
+      <>
+        Bringing Promising Ideas <br /> to Life
+      </>
+    ),
+    desc: (
+      <>
+        Our team of experts is waiting to hear your voice. Call us now and have
+        your vision turned <br /> into a magical reality. Your next big idea is
+        just a call away.
+      </>
+    ),
     img: {
       src: "/contact-us/hero.png",
       width: "538",

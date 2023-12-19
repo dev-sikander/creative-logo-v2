@@ -189,13 +189,13 @@ const Contact = () => {
                 )}
                 <div className="border-b-2 border-[#ffffff33] relative">
                   <span className="text-[15px] font-medium text-white absolute top-0 left-0 bottom-0 flex items-center">
-                  Or via email at
+                    Or via email at
                   </span>
                   <Input
                     name="email"
                     type="email"
                     border="border-none"
-                    padding="pl-[100px] pr-5"
+                    padding="pl-[110px] pr-5"
                     handle={handleDataChange}
                   />
                 </div>
@@ -206,13 +206,13 @@ const Contact = () => {
                 )}
                 <div className="border-b-2 border-[#ffffff33] relative">
                   <span className="text-[15px] font-medium text-white absolute top-0 left-0 bottom-0 flex items-center">
-                  I am interested in
+                    I am interested in
                   </span>
                   <Select
                     options={servicesArray}
                     name="services"
                     border="border-none"
-                    padding="pl-[100px] pr-5"
+                    padding="pl-[130px] pr-5"
                     handle={handleDataChange}
                   />
                 </div>
@@ -255,7 +255,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h2 className="text-xl sm:text-2xl font-megat text-white font-normal leading-none mb-3">
-                  MEET US IN PERSON!
+                    MEET US IN PERSON!
                   </h2>
                   <div
                     dangerouslySetInnerHTML={{

@@ -132,7 +132,7 @@ const PricingAndPackages = ({ content }) => {
                       </div>
                       <div className="bg-[#D9D9D9] p-5">
                         <h5 className="text-[18px] leading-tight text-black font-megat font-extrabold mb-2">
-                          Let's Talk
+                          Let's Chat
                         </h5>
                         <p className="text-[12px] leading-[20px] text-black font-normal">
                           We are looking forward to hearing from you. Let us

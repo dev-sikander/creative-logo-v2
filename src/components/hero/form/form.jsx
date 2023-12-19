@@ -194,7 +194,7 @@ const Form = () => {
                 name="email"
                 type="email"
                 border="border-none"
-                padding="pl-[100px] pr-5"
+                padding="pl-[110px] pr-5"
                 color="text-black"
                 handle={handleDataChange}
               />
@@ -213,7 +213,7 @@ const Form = () => {
               options={servicesArray}
               name="services"
               border="border-none"
-              padding="pl-[100px] pr-5"
+              padding="pl-[130px] pr-5"
               color="text-black"
               handle={handleDataChange}
             />
@@ -226,7 +226,7 @@ const Form = () => {
               name="message"
               type="test"
               border="border-none"
-              padding="pl-[130px] pr-5"
+              padding="pl-[210px] pr-5"
               color="text-black"
               handle={handleDataChange}
             />
